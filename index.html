@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galactic Journeys</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 text-gray-900">
+
+    <header class="bg-blue-600 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Galactic Journeys</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="p-4">
+        <section class="hero bg-blue-500 text-white p-8 text-center mb-8">
+            <div class="container mx-auto flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <h2 class="text-4xl font-bold mb-4">Welcome to Galactic Journeys</h2>
+                    <p class="text-xl mb-4">Discover the marvels of the universe with our curated adventures.</p>
+                    <a href="#" class="bg-white text-blue-500 px-4 py-2 rounded font-semibold hover:bg-gray-200">Get
+                        Started</a>
+                </div>
+                <div class="lg:w-1/2">
+                    <img src="https://spaceholder.cc/i/400x300" alt="Galactic Image"
+                        class="w-full h-auto rounded-lg shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Explore the Cosmos</h2>
+            <p class="text-lg">Join us as we delve into the mysteries of the universe, one galaxy at a time.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="feature p-4 bg-white rounded shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Deep Space Missions</h3>
+                    <p>Experience the thrill of exploring the unknown regions of space.</p>
+                </div>
+                <div class="feature p-4 bg-white rounded shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Star Gazing Tours</h3>
+                    <p>Enjoy guided tours of the night sky, led by our expert astronomers.</p>
+                </div>
+                <div class="feature p-4 bg-white rounded shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Cosmic Workshops</h3>
+                    <p>Participate in workshops and learn more about the wonders of the universe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Testimonials</h2>
+            <div class="space-y-4">
+                <div class="testimonial p-4 bg-white rounded shadow-lg">
+                    <p class="italic">"Galactic Journeys has opened my eyes to the beauty of the cosmos. A must-try for
+                        everyone!"</p>
+                    <p class="mt-2 font-bold">- Starstruck Explorer</p>
+                </div>
+                <div class="testimonial p-4 bg-white rounded shadow-lg">
+                    <p class="italic">"An unforgettable experience. The guides were knowledgeable and the views were
+                        spectacular."</p>
+                    <p class="mt-2 font-bold">- Cosmic Enthusiast</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+            <form class="bg-white p-4 rounded shadow-lg">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Name</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" type="text" id="name" name="name" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">Email</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" type="email" id="email" name="email"
+                        required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="message">Message</label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded" id="message" name="message" rows="4"
+                        required></textarea>
+                </div>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" type="submit">Send
+                    Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 p-4 text-white text-center">
+        &copy; 2024 Galactic Journeys
+    </footer>
+
+</body>
+
+</html>
